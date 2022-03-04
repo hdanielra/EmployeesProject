@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Employees.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Employees.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employees.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employees.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Employees.Entities.csproj",
+      "msbuildProject": "../Entities/Employees.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Employees.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hdani\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\1 Trabajo\\2022\\Entrevistas\\Thales\\Employees\\Employees.Contracts\\Employees.Contracts.csproj",
+      "projectName": "Employees.Contracts",
+      "projectPath": "D:\\1 Trabajo\\2022\\Entrevistas\\Thales\\Employees\\Employees.Contracts\\Employees.Contracts.csproj",
+      "packagesPath": "C:\\Users\\hdani\\.nuget\\packages\\",
+      "outputPath": "D:\\1 Trabajo\\2022\\Entrevistas\\Thales\\Employees\\Employees.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\hdani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\1 Trabajo\\2022\\Entrevistas\\Thales\\Employees\\Entities\\Employees.Entities.csproj": {
+              "projectPath": "D:\\1 Trabajo\\2022\\Entrevistas\\Thales\\Employees\\Entities\\Employees.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

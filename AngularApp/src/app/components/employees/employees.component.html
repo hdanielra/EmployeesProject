@@ -1,0 +1,62 @@
+<div class="container">
+  <h1 class="display-4 text-center">Employees</h1>
+  <hr>
+
+
+
+  <div class="row">
+
+    <!-- ----------------------------------------------------------- -->
+    <div class="col">
+      <div class="form-group">
+        <input type="text" class="form-contorl" placeholder="Search by id..."
+        #txtSearch (keyup)="onSearch( txtSearch.value )"  >
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <div class="row">
+    <!-- ----------------------------------------------------------- -->
+    <div class="col-md-4">
+      <button class="btn btn-primary" (click)="prevPage()">Previous</button>&nbsp;
+      <button class="btn btn-success" (click)="nextPage()" [disabled]="(employees | filter:page:search).length === 0" >Next</button>
+    </div>
+    <!-- ----------------------------------------------------------- -->
+  </div>
+
+
+  <div class="row">
+
+    <!-- ----------------------------------------------------------- -->
+    <div class="col">
+      <h2 class="text-center"> List of Employees </h2>
+      <table class="table table-striped" >
+        <thead>
+          <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Salary</td>
+            <td>Anual Salary</td>
+            <td>Image</td>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees | filter:page:search  ">
+            <td scope="row">{{ employee.Id }}</td>
+            <td>{{ employee.EmployeeName }}</td>
+            <td>{{ employee.EmployeeAge }}</td>
+            <td>{{ employee.EmployeeSalary | currency: 'USD' }}</td>
+            <td>{{ employee.EmployeeAnualSalary | currency: 'USD' }}</td>
+            <td><img [src]="employee.ProfileImage" [ngStyle]="{'width':'75px'}"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- ----------------------------------------------------------- -->
+
+  </div>
+
+</div>

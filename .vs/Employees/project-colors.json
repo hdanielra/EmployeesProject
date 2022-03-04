@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ccc32cb1-dee9-478c-8cd7-b251edd28145": {
+      "ProjectGuid": "ccc32cb1-dee9-478c-8cd7-b251edd28145",
+      "DisplayName": "AngularApp",
+      "ColorIndex": 0
+    },
+    "7891a45b-9235-4338-92f0-96652b3cefc2": {
+      "ProjectGuid": "7891a45b-9235-4338-92f0-96652b3cefc2",
+      "DisplayName": "Employees.Entities",
+      "ColorIndex": 1
+    },
+    "549c139c-3146-45f7-844d-7f7a9c18d6f8": {
+      "ProjectGuid": "549c139c-3146-45f7-844d-7f7a9c18d6f8",
+      "DisplayName": "Employees.Api",
+      "ColorIndex": 2
+    },
+    "c9d5e59a-c862-4f3a-9be9-cc1d78831bf0": {
+      "ProjectGuid": "c9d5e59a-c862-4f3a-9be9-cc1d78831bf0",
+      "DisplayName": "AngularAppCore",
+      "ColorIndex": 3
+    },
+    "a0462482-2b77-4075-a059-934c4a742b62": {
+      "ProjectGuid": "a0462482-2b77-4075-a059-934c4a742b62",
+      "DisplayName": "AngularAppCore",
+      "ColorIndex": 4
+    },
+    "7509bc4f-2bd1-4845-9dff-f45c2e1454d7": {
+      "ProjectGuid": "7509bc4f-2bd1-4845-9dff-f45c2e1454d7",
+      "DisplayName": "Employees.App",
+      "ColorIndex": 5
+    },
+    "7e1cd8c1-3051-474f-b362-fa4e3417d5fd": {
+      "ProjectGuid": "7e1cd8c1-3051-474f-b362-fa4e3417d5fd",
+      "DisplayName": "Employees.Test",
+      "ColorIndex": 6
+    },
+    "a65f26e3-ebda-4f7a-a3ac-6ee5c3988abb": {
+      "ProjectGuid": "a65f26e3-ebda-4f7a-a3ac-6ee5c3988abb",
+      "DisplayName": "Employees.Contracts",
+      "ColorIndex": 7
+    },
+    "b4d2b665-9782-467e-b0cf-e695eaecc8fe": {
+      "ProjectGuid": "b4d2b665-9782-467e-b0cf-e695eaecc8fe",
+      "DisplayName": "Employees.Repository",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 9
+}

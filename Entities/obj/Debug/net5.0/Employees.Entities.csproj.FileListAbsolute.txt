@@ -1,0 +1,11 @@
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\bin\Debug\net5.0\Employees.Entities.deps.json
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\bin\Debug\net5.0\Employees.Entities.dll
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\bin\Debug\net5.0\ref\Employees.Entities.dll
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\bin\Debug\net5.0\Employees.Entities.pdb
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\Employees.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\Employees.Entities.AssemblyInfoInputs.cache
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\Employees.Entities.AssemblyInfo.cs
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\Employees.Entities.csproj.CoreCompileInputs.cache
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\Employees.Entities.dll
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\ref\Employees.Entities.dll
+D:\1 Trabajo\2022\Entrevistas\Thales\Employees\Entities\obj\Debug\net5.0\Employees.Entities.pdb
